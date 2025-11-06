@@ -1,5 +1,2 @@
 ﻿  main.cpp
-  print_image.cpp
-C:\Users\artpi\source\repos\image-to-ascii\image-to-ascii\src\print_image.cpp(25,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
   image-to-ascii.vcxproj -> C:\Users\artpi\source\repos\image-to-ascii\x64\Debug\image-to-ascii.exe

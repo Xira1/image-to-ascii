@@ -8,8 +8,8 @@ typedef struct {
 } image_t;
 
 namespace Image {
-	image_t LoadImage(const char* filepath);
+	image_t Load(const char* filepath);
 	image_t Resize(image_t* img, size_t mWidth, size_t mHeight); // Billinear interpolation
-	float* GetPixel(image_t* img, size_t x, size_t y);
-	void SetPixel(image_t* img, size_t x, size_t y, float* newPixel);
+	/*float* GetPixel(image_t* img, size_t x, size_t y);
+	void SetPixel(image_t* img, size_t x, size_t y, float* newPixel);*/
 }

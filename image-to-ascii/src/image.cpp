@@ -5,7 +5,7 @@
 #include <stb_image.h>
 
 namespace Image {
-	image_t LoadImage(const char* filepath) {
+	image_t Load(const char* filepath) {
 		int width, height, nrChannels;
 		image_t img;
 
@@ -109,7 +109,7 @@ namespace Image {
 		return out;
 	}
 
-	float* GetPixel(image_t* img, size_t x, size_t y) {
+	/*float* GetPixel(image_t* img, size_t x, size_t y) {
 		float* data = (float*)img->data;
 		size_t idx = (y * img->width + x) * img->channel;
 
@@ -121,5 +121,5 @@ namespace Image {
 		for (size_t i = 0; i < img->channel; i++) {
 			pixel[i] = newPixel[i];
 		}
-	}
+	}*/
 }
